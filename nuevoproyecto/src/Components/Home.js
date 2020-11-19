@@ -4,6 +4,7 @@ import Card from './Card';
 
 function Home() {
     return (
+        
         <div className='home'>
             <h1>YAYA Accesorios</h1>
             
