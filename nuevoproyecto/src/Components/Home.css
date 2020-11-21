@@ -4,5 +4,14 @@
 }
 
 .home {
-  margin-top: 100px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item > img {
+  object-fit: cover;
 }
