@@ -9,9 +9,25 @@
 }
 
 .carousel-item {
-  height: 300px;
+  height: 350px;
+  width: 100%;
+  display: flex;
 }
 
 .carousel-item > img {
-  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: auto;
+}
+
+.card-deck {
+  transition: transform 100ms ease-in;
+  display: inline-block;
+  width: 100%;
+  display: flex;
 }

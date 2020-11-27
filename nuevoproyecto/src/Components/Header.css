@@ -1,34 +1,35 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  background-color: white;
-  z-index: 100;
-  width: 100%;
-  top: 0;
-  background-color: #f9813a;
+  background: url("../assets/img/yajis.jpg");
+  height: 50vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.header_icon {
-  object-fit: contain;
-  height: 100px;
-  margin-left: 20px;
+.banner_info {
+  background-color: pink;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
 }
 
-.header_center {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  max-width: fit-content;
-  padding: 10px;
-  height: 30px;
-  border-radius: 1px solid lightgray;
-  border-radius: 999px;
+.banner_info > button {
+  background-color: pink;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  border-color: white;
 }
 
-.header_right {
-  display: flex;
-  align-items: center;
-  padding: 20px;
+.banner_info > h5 {
+  margin-top: 10px;
+}
+
+.banner_info > button:hover {
+  background-color: #343a40;
+  color: pink;
 }

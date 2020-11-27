@@ -13,21 +13,21 @@ function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://i.picsum.photos/id/312/800/300.jpg?hmac=J-UGyOLTVTUC7YfgWdrNrQD9GPqzCkzgQbE34Z1k_Xs"
+              src="https://www.instyle.es/medio/2019/08/07/diadema-madame-de-rosa_6b44b8b5_1200x630.jpg"
               className="w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://i.picsum.photos/id/383/800/300.jpg?hmac=RIPUkwJUWhd7m6QLew0gBPJmg7u46X7fIeGNcR6yGDQ"
+              src="https://cdn.fangazing.com/files/22-1477-Foto/diadema123.png"
               className="w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://i.picsum.photos/id/722/800/300.jpg?hmac=-NCS3yq1nM2P1jvqmwCBCYcAs9fpDeC5JKBsfpgbSlA"
+              src="https://ae01.alicdn.com/kf/H630dcf59391c4deea1d003d9cb905619e/Accesorios-para-el-cabello-para-mujeres-lindas-diademas-con-nudo-para-mujeres-aros-para-el-cabello.jpg_960x960.jpg"
               className="w-100"
               alt="..."
             />
