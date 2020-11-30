@@ -5,6 +5,8 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Nosotros from "./Components/Nosotros";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -22,6 +24,8 @@ function App() {
           </Route>
         </Switch>
         <Navbar />
+
+        <Footer />
       </div>
     </Router>
   );

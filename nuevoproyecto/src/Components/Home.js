@@ -36,7 +36,7 @@ function Home() {
       </div>
 
       <div className="home_section">
-        <div className="card-deck">
+        <div className="card-group">
           <Card
             src="https://i.picsum.photos/id/672/300/200.jpg?hmac=kwyJBjBU30s51icbB6yP0mxqzKTONkXpXsVLSAh7EVA"
             title="Diadema"
