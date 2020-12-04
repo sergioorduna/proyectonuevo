@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import AccessibilityIcon from "@material-ui/icons/Accessibility";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 function Navbar() {
   return (
@@ -27,12 +29,14 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/nosotros" className="nav-link">
+            <Link to="/" className="nav-link">
               Nosotros
             </Link>
           </li>
         </ul>
         <form className="form-inline mt-2 mt-md-0">
+          <AccessibilityIcon />
+          <ShoppingCartIcon />
           <input
             className="form-control mr-sm-2"
             type="text"

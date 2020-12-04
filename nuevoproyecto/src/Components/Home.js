@@ -36,39 +36,39 @@ function Home() {
       </div>
 
       <div className="home_section">
-        <div className="card-group">
+        <div className="row row-cols-1 row-cols-md-3">
           <Card
-            src="https://i.picsum.photos/id/672/300/200.jpg?hmac=kwyJBjBU30s51icbB6yP0mxqzKTONkXpXsVLSAh7EVA"
+            src="https://www.lecturas.com/medio/2020/06/11/paula-echevarria_f3c80e4a_900x1375.jpg"
             title="Diadema"
             description="Diadema dorada"
             price="$250"
           />
           <Card
-            src="https://i.picsum.photos/id/452/300/200.jpg?hmac=xs5paoQZddwd4waMK25K9VN_AI0jITH7aS4CX_Gucb0"
+            src="https://www.lecturas.com/medio/2020/06/17/diadema-romantic_9f92c0c1_900x1350.jpg"
             title="Diadema rosita"
             description="Rosa"
             price="$5,000"
           />
           <Card
-            src="https://i.picsum.photos/id/17/300/200.jpg?hmac=aSEXmFpSdpZjWAZt0iQhmsT_kjaF3ekLBry0Lc7bhz4"
+            src="https://www.lecturas.com/medio/2020/06/17/diadema-elegant_6c1d1acf_900x1350.jpg"
             title="Diadema"
             description="Para niña"
             price="$4,000"
           />
           <Card
-            src="https://i.picsum.photos/id/672/300/200.jpg?hmac=kwyJBjBU30s51icbB6yP0mxqzKTONkXpXsVLSAh7EVA"
+            src="https://i.pinimg.com/736x/1b/ba/fc/1bbafc949f82ddb8e4cf165b8e41fab4.jpg"
             title="Diadema"
             description="Diadema dorada"
             price="$250"
           />
           <Card
-            src="https://i.picsum.photos/id/452/300/200.jpg?hmac=xs5paoQZddwd4waMK25K9VN_AI0jITH7aS4CX_Gucb0"
+            src="https://aws.glamour.mx/prod/designs/v1/assets/426x582/219946.jpg"
             title="Diadema rosita"
             description="Rosa"
             price="$5,000"
           />
           <Card
-            src="https://i.picsum.photos/id/17/300/200.jpg?hmac=aSEXmFpSdpZjWAZt0iQhmsT_kjaF3ekLBry0Lc7bhz4"
+            src="https://i.pinimg.com/736x/96/dd/8b/96dd8b694bf482047216e98a6ae05492.jpg"
             title="Diadema"
             description="Para niña"
             price="$4,000"
