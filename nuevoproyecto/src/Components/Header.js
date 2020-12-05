@@ -8,7 +8,7 @@ function Header() {
       <div className="banner_info">
         <h1>Bienvenido</h1>
         <h5>Aqui encontraras todo lo que necesitas.</h5>
-        <Button>Random</Button>
+        <Button>Hello</Button>
       </div>
     </div>
   );
