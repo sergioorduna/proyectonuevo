@@ -6,7 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 function Footer() {
   return (
     <div className="footer">
-      <div className="jumbotron">
+      <div className="jumbotron mb-0">
         <h1 className="display-4">Gracias por tu visita!</h1>
         <p className="lead">
           Puedes encontrarnos en Facebook <FacebookIcon /> e Instagram{" "}

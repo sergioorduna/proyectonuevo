@@ -1,9 +1,10 @@
 .header {
-  background: url("../assets/img/yajis.jpg");
+  background: url("../assets/yajis.jpg");
   height: 50vh;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
+  width: 120%;
 }
 
 .banner_info {
