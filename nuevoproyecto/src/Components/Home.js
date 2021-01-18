@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Card from "./Card";
+import imagenes from "../assets/imagenes";
 
 function Home() {
   return (
@@ -82,40 +83,54 @@ function Home() {
         </a>
       </div>
 
+      {/*CARDS  */}
+
       <div className="home_section">
         <div className="row row-cols-1 row-cols-md-3">
           <Card
-            src="https://www.lecturas.com/medio/2020/06/11/paula-echevarria_f3c80e4a_900x1375.jpg"
+            img
+            src={imagenes.img1}
+            alt="/"
             title="Diadema"
             description="Diadema dorada"
             price="$250"
           />
           <Card
-            src="https://www.lecturas.com/medio/2020/06/17/diadema-romantic_9f92c0c1_900x1350.jpg"
+            img
+            src={imagenes.img3}
+            alt="/"
             title="Diadema rosita"
             description="Rosa"
             price="$5,000"
           />
           <Card
-            src="https://www.lecturas.com/medio/2020/06/17/diadema-elegant_6c1d1acf_900x1350.jpg"
+            img
+            src={imagenes.img4}
+            alt="/"
             title="Diadema"
             description="Para niña"
             price="$4,000"
           />
           <Card
-            src="https://i.pinimg.com/736x/1b/ba/fc/1bbafc949f82ddb8e4cf165b8e41fab4.jpg"
+            img
+            src={imagenes.img5}
+            alt="/"
             title="Diadema"
             description="Diadema dorada"
             price="$250"
           />
           <Card
-            src="https://aws.glamour.mx/prod/designs/v1/assets/426x582/219946.jpg"
+            img
+            src={imagenes.img6}
+            alt="Variasdiademas"
             title="Diadema rosita"
             description="Rosa"
             price="$5,000"
           />
           <Card
-            src="https://i.pinimg.com/736x/96/dd/8b/96dd8b694bf482047216e98a6ae05492.jpg"
+            img
+            src={imagenes.img7}
+            alt="flamingos"
             title="Diadema"
             description="Para niña"
             price="$4,000"

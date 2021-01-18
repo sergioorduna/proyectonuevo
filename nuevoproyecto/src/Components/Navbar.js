@@ -34,6 +34,9 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        <div className="navbar_option">
+          <span className="navbar_option1"> Inicia Sesión</span>
+        </div>
         <form className="form-inline mt-2 mt-md-0">
           <AccessibilityIcon />
           <ShoppingCartIcon />

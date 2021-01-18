@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Nosotros from "./Components/Nosotros";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import imagenes from "./assets/imagenes";
 
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,6 +22,7 @@ function App() {
           </Route>
           <Route path="/" exact>
             <Home />
+            <imagenes />
           </Route>
         </Switch>
         <Navbar />
